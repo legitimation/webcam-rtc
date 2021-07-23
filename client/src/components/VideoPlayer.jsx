@@ -6,9 +6,9 @@ import { SocketContext } from '../SocketContext';
 
 const useStyles = makeStyles((theme) => ({
   video: {
-    width: '550px',
+    width: '450px', //550
     [theme.breakpoints.down('xs')]: {
-      width: '300px',
+      width: '300px', //300
     },
   },
   gridContainer: {
@@ -18,9 +18,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   paper: {
-    padding: '10px',
-    border: '2px solid black',
-    margin: '10px',
+    padding: '0px', //10
+    border: '2px solid black', //2
+    margin: '5px', //10
   },
 }));
 
